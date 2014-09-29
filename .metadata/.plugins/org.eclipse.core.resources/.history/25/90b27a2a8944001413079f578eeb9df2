@@ -1,0 +1,43 @@
+package com.service;
+
+import org.apache.log4j.Logger;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.ui.ModelMap;
+
+import com.model.Myprofile;
+import com.model.MyprofileJDBC;
+
+public class MenuService {
+
+	private static ApplicationContext context;
+	static Logger log = Logger.getLogger(MenuService.class.getName());
+	private String username;
+	String detailName;
+	String detailAbout;
+	ModelMap model;
+
+	public void GetDetail(String userName) {
+		context = new ClassPathXmlApplicationContext("Beans.xml");
+		MyprofileJDBC jdbc = (MyprofileJDBC) context.getBean("myProfileJDBC");
+		this.username = userName;
+		try {
+			Myprofile mp = jdbc.getProfile(username);
+			String fname = mp.getFName();
+			String about = mp.getAbout();
+			String location = mp.getLocation();
+			String contact = mp.getContact();
+			String education = mp.getEducation();
+
+			model.addAttribute("fname", fname);
+			model.addAttribute("about", about);
+			model.addAttribute("location", location);
+			model.addAttribute("contact", contact);
+			model.addAttribute("educatio", education);
+
+		} catch (Exception e) {
+			log.info("MenuService/ Get name Fail!");
+		}
+
+	}
+}

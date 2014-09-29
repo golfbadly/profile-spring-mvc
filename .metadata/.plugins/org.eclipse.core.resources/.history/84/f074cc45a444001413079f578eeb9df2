@@ -1,0 +1,95 @@
+package com.model;
+
+public class Myprofile {
+	private Integer id;
+	private String username;
+	private String password;
+	private String f_name;
+	private String l_name;
+	private String about;
+	private String location;
+	private String contact;
+	private String education;
+	private String job;
+
+	public void setID(int id) {
+		this.id = null;
+	}
+
+	public int getID() {
+		return this.id;
+	}
+
+	public void setUserName(String username) {
+		this.username = username;
+	}
+
+	public String getUserName() {
+		return this.username;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public String getPassword() {
+		return this.password;
+	}
+
+	public void setFName(String f_name) {
+		this.f_name = f_name;
+	}
+
+	public String getFName() {
+		return this.f_name;
+	}
+
+	public void setLName(String l_name) {
+		this.l_name = l_name;
+	}
+
+	public String getLName() {
+		return this.l_name;
+	}
+
+	public void setAbout(String about) {
+		this.about = about;
+	}
+
+	public String getAbout() {
+		return this.about;
+	}
+
+	public void setLocation(String location) {
+		this.location = location;
+	}
+
+	public String getLocation() {
+		return this.location;
+	}
+
+	public void setContact(String contact) {
+		this.contact = contact;
+	}
+
+	public String getContact() {
+		return this.contact;
+	}
+
+	public void setEducation(String education) {
+		this.education = education;
+	}
+
+	public String getEducation() {
+		return this.education;
+	}
+
+	public void setJob(String job) {
+		this.job = job;
+	}
+
+	public String getJob() {
+		return this.job;
+	}
+
+}

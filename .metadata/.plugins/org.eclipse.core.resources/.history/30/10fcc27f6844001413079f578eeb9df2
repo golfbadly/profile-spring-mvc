@@ -1,0 +1,38 @@
+<%@ page contentType="text/html; charset=UTF-8" %>
+<html>
+<link rel="stylesheet" type="text/css" href="css/p_menu.css">
+<title>Profile</title>
+
+<body>
+<div id="menuprofile">
+  <div id="menuprofile1">
+      <div class="header">
+	 <a class="logo">Profile</a>	
+         <a class="logout" href="login.jsp">Logout</a>
+	 <a class="facebook" href="http://www.facebook.com">Facebook</a>
+	 <a class="edit" href="edit.jsp">Edit Profile</a>
+      </div>
+      <div class="menu">
+<!--<%
+Object n = request.getAttribute("name");
+%>-->
+	 <p><br><br><br>Do you know <strong><%=n%> 
+					    ?</strong></p> 
+	 <ul id="selection">
+		<li class="menu1" style="opacity: 1;">
+			<a href="About">About me</a></li>
+		<li class="menu2" style="opacity: 1;">
+			<a href="Where">Where you see me?</a></li>
+		<li class="menu3" style="opacity: 1;">
+			<a href="Contact">How to contact me?</a></li>
+		<li class="menu4" style="opacity: 1;">
+			<a href="Education">Education</a></li> 
+         </ul> 
+      </div>
+   </div>
+</div>
+</div>
+</body>
+
+</html>
+

@@ -1,0 +1,44 @@
+package com.service;
+
+import org.apache.log4j.Logger;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.model.Myprofile;
+import com.model.MyprofileJDBC;
+
+public class EditService {
+	private static ApplicationContext context;
+	static Logger log = Logger.getLogger(RegisterService.class.getName());
+
+	boolean status = false;
+	private String username;
+	private String about;
+	private String location;
+	private String education;
+	private String contact;
+
+	public boolean edit(String Username, String About, String Location,
+			String Contact, String Education) {
+
+		context = new ClassPathXmlApplicationContext("Beans.xml");
+		MyprofileJDBC jdbc = (MyprofileJDBC) context.getBean("myProfileJDBC");
+
+		log.info("EditService/ Prepare data.");
+		this.username = Username;
+		this.about = About;
+		this.location = Location;
+		this.contact = Contact;
+		this.education = Education;
+		try {
+			jdbc.updateDetail(username, about, location, contact, education);
+			log.info("EditService/ Edit commplete.");
+			status = true;
+		} catch (Exception e) {
+			log.info("EditService/ Edit Fail.");
+			status = false;
+		}
+		return status;
+
+	}
+}

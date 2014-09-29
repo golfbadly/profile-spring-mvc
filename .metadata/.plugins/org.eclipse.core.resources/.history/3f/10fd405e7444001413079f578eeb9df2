@@ -1,0 +1,49 @@
+package com.service;
+
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import org.apache.log4j.Logger;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.controller.Login;
+import com.model.Myprofile;
+import com.model.MyprofileJDBC;
+
+public class LoginService {
+	private static ApplicationContext context;
+	static Logger log = Logger.getLogger(Login.class.getName());
+	ResultSet rs = null;
+	PreparedStatement pst = null;
+	private String username;
+	private String password;
+	
+	public LoginService() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public boolean validateLogin(String n, String p) {
+		// TODO Auto-generated method stub
+		this.username = n;
+		this.password = p;
+		
+		context = new ClassPathXmlApplicationContext("Beans.xml");
+		MyprofileJDBC jdbc = (MyprofileJDBC) context.getBean("myProfileJDBC");
+		
+		boolean status = false;
+
+
+		try {
+			Myprofile myProfile = jdbc.loginValidate(username, password);
+			if(myProfile != null)
+			status = rs.next();
+
+		} catch (Exception e) {
+			log.info("Login Fail!");
+		}
+		log.info("Login Record with username = " +username);
+		return status;
+	}
+
+}

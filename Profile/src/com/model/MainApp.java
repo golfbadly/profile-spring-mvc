@@ -1,0 +1,71 @@
+//package com.model;
+//
+//import java.util.ArrayList;
+//import java.util.List;
+//
+//import org.springframework.context.ApplicationContext;
+//import org.springframework.context.support.ClassPathXmlApplicationContext;
+//
+//import com.model.MyprofileJDBC;
+//
+//public class MainApp {
+//	private static ApplicationContext context;
+//
+//	public static void main(String[] args) {
+//		context = new ClassPathXmlApplicationContext("Beans.xml");
+//		MyprofileJDBC jdbc = (MyprofileJDBC) context.getBean("myProfileJDBC");
+//
+//		List<Myprofile> dataList = new ArrayList<Myprofile>();
+//		List<Myprofile> alluser = jdbc.listUser();
+//
+//		for (Myprofile record : alluser) {
+//
+//			int id = record.getID();
+//			String fname = record.getFName();
+//			String lname = record.getLName();
+//			String about = record.getAbout();
+//			String location = record.getLocation();
+//			String contact = record.getContact();
+//			String education = record.getEducation();
+//			String job = record.getJob();
+//
+//			System.out.println(id + " " + fname + " " + lname + " " + about + " " + location + " " + contact + " " + education + " " + job);
+//		
+//
+//		}
+//
+//	}
+//}
+//// //
+//// // // List<Myprofile> allusername = jdbc.listUsername();
+//// // // for (Myprofile record : allusername) {
+//// // // System.out.println(record.getUserName());
+//// // //
+//// // // }
+//// // //
+//// // // System.out.println("------Records Creation--------");
+//// // // jdbc.create("golf2", "1234", "Worachart", "Chaithong", "Wor", "Trang",
+//// // // "Facebook", "PSU Phuket");
+//// // //
+//// // // System.out.println("------Listing Multiple Records--------");
+//// // // List<Myprofile> profile = jdbc.listProfile();
+//// // // for (Myprofile record : profile) {
+//// // // System.out.println("ID : " + record.getID());
+//// // // System.out.println("Name : " + record.getFName());
+//// // // System.out.println("Lastname : " + record.getLName());
+//// // // System.out.println("About : " + record.getAbout());
+//// // // System.out.println("Location : " + record.getLocation());
+//// // // System.out.println("Contact : " + record.getContact());
+//// // // System.out.println("Education : " + record.getEducation());
+//// // //
+//// // // }
+//// // //
+//// // // System.out.println("----Updating Record with ID = 2 -----");
+//// // // jdbc.update(2, 20);
+//// // //
+//// // // System.out.println("----Listing Record with ID = 2 -----");
+//// // // Myprofile myProfile = jdbc.getProfile(1);
+//// // // System.out.print(", Name : " + myProfile.getFName());
+//// //
+//// // // }
+//// // // }

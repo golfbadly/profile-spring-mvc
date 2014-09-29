@@ -1,0 +1,72 @@
+package com.controller;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+import com.service.LoginService;
+
+@Controller
+@RequestMapping("/hello")
+public class Login {
+
+	/*
+	 * @RequestMapping(method = RequestMethod.GET) public String
+	 * printHello(ModelMap model) { model.addAttribute("message",
+	 * "Hello Spring MVC Framework!");
+	 * 
+	 * return "hello"; }
+	 */
+
+	static Logger log = Logger.getLogger(Login.class.getName());
+
+	private String result;
+
+	@RequestMapping(method = RequestMethod.GET)
+	public String loginCheck(HttpServletRequest request,
+			HttpServletResponse response) throws IOException, ServletException {
+		log.info("login check");
+		PrintWriter out = response.getWriter();
+		String n = request.getParameter("id");
+		String p = request.getParameter("pass");
+     
+		if (n.equals("admin") && p.equals("admin")) {
+
+			log.info("Admin login complete.");
+
+			result = "hello";
+		} else {
+
+			HttpSession session = request.getSession(true);
+			session.setAttribute("name", n);
+
+			LoginService login = new LoginService();
+
+			if (login.validateLogin(n, p)) {
+
+				log.info("User login complete.");
+
+				result = "hello";
+			} else {
+				out.println("<html><body onload=\"alert('UserID or Password wrong!')\"></body></html>");
+
+				result = "hello";
+			}
+			out.close();
+		}
+		out.close();
+		log.info("Out");
+		return result;
+
+	}
+
+}

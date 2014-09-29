@@ -1,0 +1,318 @@
+--------------------
+FrameworkServlet 'Profile': initialization started
+--------------------
+--------------------
+Refreshing WebApplicationContext for namespace 'Profile-servlet': startup date [Fri Sep 26 19:45:18 ICT 2014]; root of context hierarchy
+--------------------
+--------------------
+Loading XML bean definitions from ServletContext resource [/WEB-INF/Profile-servlet.xml]
+--------------------
+--------------------
+Mapped URL path [/resources/**] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
+--------------------
+--------------------
+Mapped "{[/Admin],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.Admin.admin(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+--------------------
+--------------------
+Mapped "{[/admin],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.Admin.map(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+--------------------
+--------------------
+Mapped "{[/contact],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.FormContact.location(javax.servlet.http.HttpServletRequest,org.springframework.ui.ModelMap)
+--------------------
+--------------------
+Mapped "{[/education],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.FormEducation.location(javax.servlet.http.HttpServletRequest,org.springframework.ui.ModelMap)
+--------------------
+--------------------
+Mapped "{[/edit],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.FormEdit.formRegister()
+--------------------
+--------------------
+Mapped "{[/],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.FormLogin.formLogin()
+--------------------
+--------------------
+Mapped "{[/register],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.FormRegister.formRegister()
+--------------------
+--------------------
+Mapped "{[/Login],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.Login.loginCheck(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+--------------------
+--------------------
+Mapped "{[/Edit],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.Edit.register(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+--------------------
+--------------------
+Mapped "{[/location],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.FormLocation.location(javax.servlet.http.HttpServletRequest,org.springframework.ui.ModelMap)
+--------------------
+--------------------
+Mapped "{[/about],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.FormAbout.about(javax.servlet.http.HttpServletRequest,org.springframework.ui.ModelMap)
+--------------------
+--------------------
+Mapped "{[/menu],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.FormMenu.menu(javax.servlet.http.HttpServletRequest,org.springframework.ui.ModelMap)
+--------------------
+--------------------
+Mapped "{[/Register],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.controller.Register.register(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+--------------------
+--------------------
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'Profile-servlet': startup date [Fri Sep 26 19:45:18 ICT 2014]; root of context hierarchy
+--------------------
+--------------------
+Looking for @ControllerAdvice: WebApplicationContext for namespace 'Profile-servlet': startup date [Fri Sep 26 19:45:18 ICT 2014]; root of context hierarchy
+--------------------
+--------------------
+FrameworkServlet 'Profile': initialization completed in 1108 ms
+--------------------
+--------------------
+FormLogin/ Call login page.
+--------------------
+--------------------
+Login Check
+--------------------
+--------------------
+Admin login complete.
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter All
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Manager
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Employee
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Manager
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter All
+--------------------
+--------------------
+FormLogin/ Call login page.
+--------------------
+--------------------
+Login Check
+--------------------
+--------------------
+Admin login complete.
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter All
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Manager
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Employee
+--------------------
+--------------------
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@574f2df3: startup date [Fri Sep 26 19:45:45 ICT 2014]; root of context hierarchy
+--------------------
+--------------------
+Loading XML bean definitions from class path resource [Beans.xml]
+--------------------
+--------------------
+Loaded JDBC driver: com.mysql.jdbc.Driver
+--------------------
+--------------------
+Admin/ Save job
+--------------------
+--------------------
+Updated Record with ID = 1
+--------------------
+--------------------
+Updated Record with ID = 2
+--------------------
+--------------------
+Updated Record with ID = 4
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Manager
+--------------------
+--------------------
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@94cf495: startup date [Fri Sep 26 19:45:57 ICT 2014]; root of context hierarchy
+--------------------
+--------------------
+Loading XML bean definitions from class path resource [Beans.xml]
+--------------------
+--------------------
+Loaded JDBC driver: com.mysql.jdbc.Driver
+--------------------
+--------------------
+Admin/ Save job
+--------------------
+--------------------
+Updated Record with ID = 1
+--------------------
+--------------------
+Updated Record with ID = 3
+--------------------
+--------------------
+Updated Record with ID = 5
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter All
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Manager
+--------------------
+--------------------
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@33917a0f: startup date [Fri Sep 26 19:46:31 ICT 2014]; root of context hierarchy
+--------------------
+--------------------
+Loading XML bean definitions from class path resource [Beans.xml]
+--------------------
+--------------------
+Loaded JDBC driver: com.mysql.jdbc.Driver
+--------------------
+--------------------
+Admin/ Save job
+--------------------
+--------------------
+Updated Record with ID = 3
+--------------------
+--------------------
+Updated Record with ID = 5
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Employee
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter All
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Employee
+--------------------
+--------------------
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@32ff8018: startup date [Fri Sep 26 19:46:43 ICT 2014]; root of context hierarchy
+--------------------
+--------------------
+Loading XML bean definitions from class path resource [Beans.xml]
+--------------------
+--------------------
+Loaded JDBC driver: com.mysql.jdbc.Driver
+--------------------
+--------------------
+Admin/ Save job
+--------------------
+--------------------
+Updated Record with ID = 1
+--------------------
+--------------------
+Updated Record with ID = 2
+--------------------
+--------------------
+Updated Record with ID = 3
+--------------------
+--------------------
+Updated Record with ID = 4
+--------------------
+--------------------
+Updated Record with ID = 5
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Manager
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter All
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter All
+--------------------
+--------------------
+Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@68cdcbdf: startup date [Fri Sep 26 19:47:18 ICT 2014]; root of context hierarchy
+--------------------
+--------------------
+Loading XML bean definitions from class path resource [Beans.xml]
+--------------------
+--------------------
+Loaded JDBC driver: com.mysql.jdbc.Driver
+--------------------
+--------------------
+Admin/ Save job
+--------------------
+--------------------
+Updated Record with ID = 1
+--------------------
+--------------------
+Updated Record with ID = 2
+--------------------
+--------------------
+Updated Record with ID = 3
+--------------------
+--------------------
+Updated Record with ID = 4
+--------------------
+--------------------
+Updated Record with ID = 5
+--------------------
+--------------------
+Updated Record with ID = 6
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Manager
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter Employee
+--------------------
+--------------------
+Admin/ Map jobs
+--------------------
+--------------------
+Admin/ Parameter All
+--------------------
+--------------------
+Closing WebApplicationContext for namespace 'Profile-servlet': startup date [Fri Sep 26 19:45:18 ICT 2014]; root of context hierarchy
+--------------------

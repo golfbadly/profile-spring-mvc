@@ -1,0 +1,45 @@
+package com.service;
+
+import java.util.List;
+
+import org.apache.log4j.Logger;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.model.Myprofile;
+import com.model.MyprofileJDBC;
+
+public class DuplicateService {
+	private static ApplicationContext context;
+	static Logger log = Logger.getLogger(DuplicateService.class.getName());
+
+	private String username;
+
+	public boolean duplicate(String Username) {
+		// TODO Auto-generated method stub
+		
+		context = new ClassPathXmlApplicationContext("Beans.xml");
+		MyprofileJDBC jdbc = (MyprofileJDBC) context.getBean("myProfileJDBC");
+
+		log.info("RegisterService/ Prepare data.");
+		
+		boolean status = false;
+		String duplicate = null;
+		this.username = Username;
+		
+		log.info("RegisterService/ Check data.");
+		List<Myprofile> list = jdbc.listUser();
+		for (Myprofile record : list) {
+			duplicate = record.getUserName();
+			
+			if(username.equals(duplicate)){
+			    status = true;
+				break;
+			}
+
+		}
+
+		return status;
+	}
+
+}

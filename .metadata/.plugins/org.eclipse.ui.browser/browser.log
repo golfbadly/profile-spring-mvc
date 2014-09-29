@@ -1,0 +1,196 @@
+
+Sep 25, 2014 10:55:16.78 NEW SESSION
+Sep 25, 2014 10:55:16.78 
+Sep 25, 2014 10:55:16.78 (process:6752): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 10:55:16.80 Error: No running window found
+Sep 25, 2014 10:55:16.83 
+Sep 25, 2014 10:55:16.83 (process:6758): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 10:55:49.77 
+Sep 25, 2014 10:55:49.77 (process:6888): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 10:56:01.15 1411617361157	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 25, 2014 10:56:17.42 
+Sep 25, 2014 10:56:17.42 (process:6906): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 10:56:17.45 Error: No running window found
+Sep 25, 2014 10:56:17.48 
+Sep 25, 2014 10:56:17.48 (process:6912): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 10:56:20.71 1411617380715	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 25, 2014 10:56:23.99 
+Sep 25, 2014 10:56:23.99 (process:6972): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 10:56:24.02 Error: No running window found
+Sep 25, 2014 10:56:24.05 
+Sep 25, 2014 10:56:24.05 (process:6978): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:04:50.63 
+Sep 25, 2014 11:04:50.63 (process:7364): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:04:55.76 1411617895764	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 25, 2014 11:05:17.55 
+Sep 25, 2014 11:05:17.55 (process:7383): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:05:17.58 Error: No running window found
+Sep 25, 2014 11:05:17.61 
+Sep 25, 2014 11:05:17.61 (process:7389): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:05:37.11 
+Sep 25, 2014 11:05:37.11 (process:7445): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:10:25.12 
+Sep 25, 2014 11:10:25.12 (process:7612): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:18:01.63 1411618681633	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 25, 2014 11:18:15.77 
+Sep 25, 2014 11:18:15.77 (process:7771): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:18:15.80 Error: No running window found
+Sep 25, 2014 11:18:15.83 
+Sep 25, 2014 11:18:15.83 (process:7777): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:26:27.38 
+Sep 25, 2014 11:26:27.38 (process:8022): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:29:39.70 1411619379708	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 25, 2014 11:29:45.24 
+Sep 25, 2014 11:29:45.24 (process:8083): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:29:45.27 Error: No running window found
+Sep 25, 2014 11:29:45.30 
+Sep 25, 2014 11:29:45.30 (process:8089): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:35:22.80 
+Sep 25, 2014 11:35:22.80 (process:8286): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 11:42:32.80 1411620152806	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 25, 2014 12:25:58.44 
+Sep 25, 2014 12:25:58.45 (process:8587): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 12:25:58.47 Error: No running window found
+Sep 25, 2014 12:25:58.50 
+Sep 25, 2014 12:25:58.50 (process:8594): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 13:23:55.54 
+Sep 25, 2014 13:23:55.54 (process:9049): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 15:00:26.49 
+Sep 25, 2014 15:00:26.49 (process:11093): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 15:06:46.32 1411632406322	addons.repository	WARN	Unknown type id when parsing addon: 5
+Sep 25, 2014 15:06:46.32 1411632406325	addons.repository	WARN	Unknown type id when parsing addon: 5
+Sep 25, 2014 15:06:47.73 1411632407737	addons.update-checker	WARN	Update manifest for ubufox@ubuntu.com did not contain an updates property
+Sep 25, 2014 15:06:48.03 1411632408034	addons.update-checker	WARN	Update manifest for webapps-team@lists.launchpad.net did not contain an updates property
+Sep 25, 2014 15:06:48.04 1411632408045	addons.update-checker	WARN	Update manifest for {2e1445b0-2682-11e1-bfc2-0800200c9a66} did not contain an updates property
+Sep 25, 2014 15:06:48.33 1411632408338	addons.update-checker	WARN	Update manifest for online-accounts@lists.launchpad.net did not contain an updates property
+Sep 25, 2014 15:06:48.92 1411632408925	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Sep 25, 2014 15:23:51.38 
+Sep 25, 2014 15:23:51.38 (process:11583): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 15:51:25.98 
+Sep 25, 2014 15:51:25.98 (process:12324): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 15:57:35.94 
+Sep 25, 2014 15:57:35.94 (process:12735): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 16:25:19.54 
+Sep 25, 2014 16:25:19.54 (process:13141): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 16:31:34.51 
+Sep 25, 2014 16:31:34.51 (process:13344): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 17:39:18.67 
+Sep 25, 2014 17:39:18.67 (process:14505): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 17:42:33.69 1411641753693	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 25, 2014 17:42:45.09 
+Sep 25, 2014 17:42:45.09 (process:14607): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 17:42:45.12 Error: No running window found
+Sep 25, 2014 17:42:45.14 
+Sep 25, 2014 17:42:45.14 (process:14613): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 18:09:40.46 1411643380461	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+
+Sep 25, 2014 21:59:14.83 NEW SESSION
+Sep 25, 2014 21:59:14.83 
+Sep 25, 2014 21:59:14.86 (process:4978): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 21:59:14.87 Error: No running window found
+Sep 25, 2014 21:59:14.90 
+Sep 25, 2014 21:59:14.90 (process:4984): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 22:25:47.04 
+Sep 25, 2014 22:25:47.04 (process:5509): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 22:30:41.63 
+Sep 25, 2014 22:30:41.63 (process:5676): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 22:42:43.17 
+Sep 25, 2014 22:42:43.17 (process:5799): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 22:43:08.77 1411659788770	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 25, 2014 22:43:13.20 
+Sep 25, 2014 22:43:13.20 (process:5877): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 22:43:13.21 Error: No running window found
+Sep 25, 2014 22:43:13.24 
+Sep 25, 2014 22:43:13.24 (process:5883): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 23:01:16.07 
+Sep 25, 2014 23:01:16.07 (process:6188): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 23:01:22.32 1411660882323	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 25, 2014 23:05:01.68 
+Sep 25, 2014 23:05:01.68 (process:6361): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 23:05:01.69 Error: No running window found
+Sep 25, 2014 23:05:01.72 
+Sep 25, 2014 23:05:01.72 (process:6367): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 23:39:43.80 
+Sep 25, 2014 23:39:43.80 (process:7182): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 25, 2014 23:42:27.99 1411663347992	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+
+Sep 26, 2014 10:50:23.33 NEW SESSION
+Sep 26, 2014 10:50:23.33 
+Sep 26, 2014 10:50:23.37 (process:4319): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 10:50:23.40 Error: No running window found
+Sep 26, 2014 10:50:23.42 
+Sep 26, 2014 10:50:23.42 (process:4326): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 11:08:00.97 
+Sep 26, 2014 11:08:00.97 (process:4730): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 11:24:24.49 1411705464492	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 26, 2014 13:45:31.88 
+Sep 26, 2014 13:45:31.88 (process:7059): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 13:45:31.90 Error: No running window found
+Sep 26, 2014 13:45:31.92 
+Sep 26, 2014 13:45:31.92 (process:7066): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 14:09:50.24 
+Sep 26, 2014 14:09:50.24 (process:7528): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 15:06:46.78 1411718806782	addons.repository	WARN	Unknown type id when parsing addon: 5
+Sep 26, 2014 15:06:46.78 1411718806788	addons.repository	WARN	Unknown type id when parsing addon: 5
+Sep 26, 2014 15:06:48.24 1411718808246	addons.update-checker	WARN	Update manifest for ubufox@ubuntu.com did not contain an updates property
+Sep 26, 2014 15:06:48.47 1411718808475	addons.update-checker	WARN	Update manifest for webapps-team@lists.launchpad.net did not contain an updates property
+Sep 26, 2014 15:06:48.56 1411718808560	addons.update-checker	WARN	Update manifest for {2e1445b0-2682-11e1-bfc2-0800200c9a66} did not contain an updates property
+Sep 26, 2014 15:06:48.80 1411718808799	addons.update-checker	WARN	Update manifest for online-accounts@lists.launchpad.net did not contain an updates property
+Sep 26, 2014 15:06:49.12 1411718809123	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+Sep 26, 2014 17:47:32.78 
+Sep 26, 2014 17:47:32.78 (process:10639): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 18:22:22.10 
+Sep 26, 2014 18:22:22.10 (process:11557): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 18:44:38.59 
+Sep 26, 2014 18:44:38.59 (process:12124): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 18:46:30.60 1411731990605	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 26, 2014 18:46:44.47 
+Sep 26, 2014 18:46:44.47 (process:12444): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 18:46:44.49 Error: No running window found
+Sep 26, 2014 18:46:44.51 
+Sep 26, 2014 18:46:44.51 (process:12450): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 18:48:28.92 
+Sep 26, 2014 18:48:28.92 (process:12592): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 18:50:58.15 
+Sep 26, 2014 18:50:58.15 (process:12702): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 18:57:08.93 
+Sep 26, 2014 18:57:08.93 (process:12830): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 18:59:42.96 
+Sep 26, 2014 18:59:42.96 (process:12965): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:04:10.33 
+Sep 26, 2014 19:04:10.33 (process:13111): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:04:38.66 1411733078669	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 26, 2014 19:04:53.67 
+Sep 26, 2014 19:04:53.67 (process:13199): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:04:53.69 Error: No running window found
+Sep 26, 2014 19:04:53.71 
+Sep 26, 2014 19:04:53.71 (process:13205): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:08:04.65 
+Sep 26, 2014 19:08:04.65 (process:13349): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:12:51.00 
+Sep 26, 2014 19:12:51.00 (process:13484): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:17:13.32 
+Sep 26, 2014 19:17:13.32 (process:13594): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:21:48.76 
+Sep 26, 2014 19:21:48.76 (process:13726): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:24:00.19 
+Sep 26, 2014 19:24:00.19 (process:13865): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:25:27.67 
+Sep 26, 2014 19:25:27.67 (process:13955): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:30:47.03 
+Sep 26, 2014 19:30:47.03 (process:14119): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:32:03.00 
+Sep 26, 2014 19:32:03.00 (process:14218): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:38:50.98 
+Sep 26, 2014 19:38:50.98 (firefox:13205): Gtk-CRITICAL **: IA__gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+Sep 26, 2014 19:38:51.17 
+Sep 26, 2014 19:38:51.17 (firefox:13205): Gtk-CRITICAL **: IA__gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+Sep 26, 2014 19:43:18.02 1411735398028	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1
+Sep 26, 2014 19:43:31.08 
+Sep 26, 2014 19:43:31.08 (process:14512): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:43:31.10 Error: No running window found
+Sep 26, 2014 19:43:31.12 
+Sep 26, 2014 19:43:31.13 (process:14518): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:45:19.65 
+Sep 26, 2014 19:45:19.66 (process:14665): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+Sep 26, 2014 19:58:46.06 1411736326068	addons.xpi	WARN	Exception running bootstrap method shutdown on webapps-team@lists.launchpad.net: ReferenceError: sss is not defined (resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@lists.launchpad.net/bootstrap.js:72:4) JS Stack trace: shutdown@resource://gre/modules/addons/XPIProvider.jsm -> file:///usr/share/mozilla/extensions/%7Bec8030f7-c20a-464f-9b0e-13a3a9e97384%7D/webapps-team@bootstrap.js:72:5 < XPI_callBootstrapMethod@XPIProvider.jsm:4274:9 < shutdownObserver@XPIProvider.jsm:1979:1

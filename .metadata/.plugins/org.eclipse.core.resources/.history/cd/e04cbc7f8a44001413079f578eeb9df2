@@ -1,0 +1,36 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+<link rel="stylesheet" type="text/css" href='<c:url value="/resources/css/p_menu.css" />'>
+<title>Profile</title>
+
+<body>
+<div id="menuprofile">
+  <div id="menuprofile1">
+      <div class="header">
+	 <a class="logo">Profile</a>	
+         <a class="logout" href="/Profile/">Logout</a>
+	 <a class="facebook" href="http://www.facebook.com">Facebook</a>
+	 <a class="edit" href="edit.jsp">Edit Profile</a>
+      </div>
+      <div class="menu">
+
+	 <p><br><br><br>Do you know <strong>${fname} 
+					    ?</strong></p> 
+	 <ul id="selection">
+		<li class="menu1" style="opacity: 1;">
+			<a href="p_about.jsp">About me</a></li>
+		<li class="menu2" style="opacity: 1;">
+			<a href="p_where.jsp">Where you see me?</a></li>
+		<li class="menu3" style="opacity: 1;">
+			<a href="p_contact.jsp">How to contact me?</a></li>
+		<li class="menu4" style="opacity: 1;">
+			<a href="p_education.jsp">Education</a></li> 
+         </ul> 
+      </div>
+   </div>
+</div>
+</div>
+</body>
+
+</html>
+
